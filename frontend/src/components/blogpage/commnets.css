@@ -1,0 +1,46 @@
+.comment-section {
+  margin-top: 20px;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-owner {
+  font-weight: bold;
+}
+
+.comment-text {
+  margin-top: 5px;
+}
+
+.comment-actions {
+  margin-top: 10px;
+}
+
+.like-button,
+.reply-button {
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.like-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.reply-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.like-button:hover,
+.reply-button:hover {
+  opacity: 0.8;
+}
